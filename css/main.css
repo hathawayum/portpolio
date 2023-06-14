@@ -410,6 +410,14 @@ header nav ul li {
     top: -60px;
     left: 183px;
     padding-top: 300px;
+
+  }
+
+.pfImg .tablet.on {
+    animation-duration:1.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-name: fadeInLeft;
 }
 
 .cont02 .inner .pf01 .pfImg .mobile {
@@ -419,9 +427,22 @@ header nav ul li {
     position: absolute;
     top: -60px;
     right: 188px;
-    padding-top: 219px;
+    padding-top: 200px;
+
 }
 
+
+.pfImg .mobile.on {
+    animation-duration:1.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-name: fadeInRight;
+}
+
+@keyframes fadeInleft{
+	0%{opacity:0; right:-50px;}
+	100%{opacity:1; right:0;}
+}
 
 
 

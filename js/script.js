@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    const circle = document.querySelector('.circle')
+    const circle = document.querySelector('.circle');
         console.log(circle)
         let mouseX
         let mouseY
@@ -10,8 +10,9 @@ $(document).ready(function () {
             circle.style.left = mouseX+'px'
             circle.style.top = mouseY+'px'
         })
+      
 
-
+        
 
 
 
@@ -42,6 +43,7 @@ $(document).ready(function () {
     //headerTop값보다 스크롤바의 값이 더클때
     $(window).scroll(function () {
         let scrollBar = $(window).scrollTop();
+        console.log(scrollBar)
         //스크롤바의 y축값(세로로 움직이는 값)
 
         //화면을 스크롤했을때 실행이 된다
@@ -70,6 +72,8 @@ $(document).ready(function () {
         if ($('#web').offset().top <= scrollBar) {
             menu.removeClass('on')
             menu.eq(2).addClass('on');
+            
+  
         }
         if ($('#design').offset().top <= scrollBar) {
             menu.removeClass('on')
@@ -99,8 +103,26 @@ $(document).ready(function () {
 
         }
 
+        const tb1 = $('#tablet1');
+        const mb1 = $('#mobile1');
+        if (scrollBar >= 1800 && scrollBar < 3000) {
+            tb1.addClass('on')
+            mb1.addClass('on');
+        }else {
+            tb1.removeClass('on')
+            mb1.removeClass('on')
+        }
 
 
+        const tb2 = $('#tablet2');
+        const mb2 = $('#mobile2');
+        if (scrollBar >= 4700 && scrollBar < 5700) {
+            tb2.addClass('on')
+            mb2.addClass('on');
+        }else {
+            tb2.removeClass('on')
+            mb2.removeClass('on')
+        }
 
 
 
