@@ -1,0 +1,908 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html,
+body {
+    color: #333;
+    line-height: 1;
+    font-size: 62.5%;
+}
+
+
+header {
+    background-color: #262626;
+    color: #fff;
+}
+
+header .inner .inner_top nav ul {
+    height: 5rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+header .inner .inner_top nav ul li {
+    font-size: 1.6rem;
+    padding-left: 30px;
+    line-height: 5rem;
+}
+
+header .inner .logo {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 150px;
+}
+
+header .inner .logo .logo_right {
+    display: flex;
+    margin-right: 100px;
+}
+
+header .inner .logo .logo_right .search fieldset {
+    border: 0;
+}
+
+header .inner .logo .logo_right .search fieldset div {
+    position: relative;
+}
+
+header .inner .logo .logo_right .search fieldset div label {
+    position: absolute;
+    left: -99999999px;
+
+}
+
+header .inner .logo .logo_right .search fieldset div input {
+    width: 444px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    margin-right: 50px;
+}
+
+header .inner .logo .logo_right .search fieldset div input[placeholder="프리미엄 차은우 샴푸 출시"] {
+    padding-left: 15px;
+    font-size: 1.6rem;
+}
+
+
+header .inner .logo .logo_right .search fieldset div img {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+
+}
+
+header .inner .inner_bottom nav ul {
+    max-width: 1440px;
+    width: calc(100%-20px);
+    margin: 0 auto;
+    display: flex;
+    height: 60px;
+
+
+}
+
+header .inner .inner_bottom nav ul li {
+    margin: 0 15px;
+    font-size: 2rem;
+    line-height: 60px;
+
+}
+
+header .inner .close {
+    font-size: 2rem;
+    display: none;
+}
+
+
+header .inner .close .menu_close img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}
+
+header .inner .close .menu_middle ul .depth01 {
+    border-bottom: 1px solid #838383;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+header .inner .close .menu_middle ul .depth01:first-child {
+
+    border-top: 1px solid #838383;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+header .inner .close .menu_middle ul .depth01 .depth02 li {
+    padding: 10px 0;
+    background-color: #838383;
+}
+
+header .inner .close .menu_middle ul .depth01 .depth02 li:first-child {
+
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.main_visual .swiper-wrapper .swiper-slide img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+
+}
+
+.cont01 {
+    margin: 16rem 0;
+}
+
+.cont01 .inner {
+    max-width: 1440px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+
+.cont01 .inner .inner_top {
+    display: flex;
+
+}
+
+.cont01 .inner .inner_top h3 {
+    font-size: 3.75rem;
+    margin-bottom: 3rem;
+    margin-right: 20rem;
+}
+
+
+
+.cont01 .inner .inner_bottom {
+    display: flex;
+
+}
+
+.cont01 .inner .inner_bottom .cont01_01 {
+    width: 24%;
+    border: 2px solid #062E76;
+    padding: 10px;
+}
+
+.cont01 .inner .inner_bottom .cont01_01 .swiper-wrapper .swiper-slide figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.cont01 .inner .inner_bottom .cont01_01 .swiper-wrapper .swiper-slide div h4 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.cont01 .inner .inner_bottom .cont01_01 .swiper-wrapper .swiper-slide div p {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: #797979;
+}
+
+.cont01 .inner .inner_bottom .cont01_01 .swiper-wrapper .swiper-slide div span {
+    font-size: 2rem;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: line-through;
+    color: #797979;
+}
+
+.cont01 .inner .inner_bottom .cont01_01 .swiper-wrapper .swiper-slide div strong {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.cont01 .inner .inner_bottom .cont01_02 {
+    width: 74%;
+    padding: 10px;
+}
+
+
+.cont01 .inner .inner_bottom .cont01_02 .swiper-wrapper .swiper-slide figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.cont01 .inner .inner_bottom .cont01_02 .swiper-wrapper .swiper-slide div h4 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.cont01 .inner .inner_bottom .cont01_02 .swiper-wrapper .swiper-slide div p {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: #797979;
+}
+
+.cont01 .inner .inner_bottom .cont01_02 .swiper-wrapper .swiper-slide div span {
+    font-size: 2rem;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: line-through;
+    color: #797979;
+}
+
+.cont01 .inner .inner_bottom .cont01_02 .swiper-wrapper .swiper-slide div strong {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+
+
+
+
+.cont02 .inner .cont02_01 .swiper-wrapper .swiper-slide img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+.cont03 {
+    margin: 16rem 0;
+}
+
+.cont03 .inner {
+    max-width: 1440px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+
+.cont03 .inner .list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cont03 .inner .list .item {
+    width: calc(100% / 3 - 20px);
+}
+
+.cont03 .inner .list .item h3 {
+    font-size: 2.7rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #333;
+    margin-bottom: 1.5rem;
+}
+
+.cont03 .inner .list .item div video {
+    width: 100%;
+    height: 36rem;
+    background-color: #333;
+}
+
+
+.cont04 {
+    margin-bottom: 16rem;
+}
+
+.cont04 .inner {
+    max-width: 1440px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+
+}
+
+.cont04 .inner h3 {
+    font-size: 3.75rem;
+    margin-bottom: 3rem;
+}
+
+
+.cont04 .inner .list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.cont04 .inner .list .item {
+    width: calc(100% / 4 - 40px)
+}
+
+.cont04 .inner .list .item figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cont04 .inner .list .item div h4 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.cont04 .inner .list .item div p {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: #797979;
+}
+
+.cont04 .inner .list .item div p:last-child {
+    margin-bottom: 3rem;
+}
+
+
+.cont04 .inner .list .item div span {
+    font-size: 2rem;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: line-through;
+    color: #797979;
+}
+
+
+
+.cont04 .inner .list .item div strong {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.cont04 .inner .list_bottom {
+    text-align: center;
+}
+
+
+.cont04 .inner .list_bottom a {
+    font-size: 2rem;
+    background-color: #062E76;
+    height: 5rem;
+    width: 20rem;
+    display: inline-block;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 5rem;
+}
+
+
+.cont05 {
+    background-color: #eeeeee;
+    padding: 16rem 0;
+}
+
+
+.cont05 .inner {
+    max-width: 1440px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+
+.cont05 .inner h3 {
+    font-size: 3.75rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid #333;
+    margin-bottom: 1.5rem;
+}
+
+
+.cont05 .inner .cont05_01 .swiper-wrapper .swiper-slide div {
+    background-color: #fff;
+
+
+}
+
+.cont05 .inner .cont05_01 .swiper-wrapper .swiper-slide figure img {
+    width: 100%;
+    height: 33.1rem;
+    object-fit: cover;
+}
+
+
+.cont05 .inner .cont05_01 .swiper-wrapper .swiper-slide .cont05_box .cont05_top {
+    padding: 10px;
+    display: flex;
+
+}
+
+.cont05 .inner .cont05_01 .swiper-wrapper .swiper-slide .cont05_box .cont05_top {
+    border-bottom: 1px solid #333;
+}
+
+.cont05 .inner .cont05_01 .swiper-wrapper .swiper-slide .cont05_box .cont05_top .cont05_top01 img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.cont05 .inner .cont05_01 .swiper-wrapper .swiper-slide .cont05_box .cont05_top .cont05_top02 {
+    width: calc(100% - 50px);
+}
+
+.cont05 .inner .cont05_01 .swiper-wrapper .swiper-slide .cont05_box .cont05_top .cont05_top02 h4 {
+    font-size: 2.2rem;
+    /* 말줄임표 */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-bottom: 10px;
+
+}
+
+.cont05 .inner .cont05_01 .swiper-wrapper .swiper-slide .cont05_box .cont05_top .cont05_top02 .cont05_top03 {
+    display: flex;
+}
+
+.cont05 .inner .cont05_01 .swiper-wrapper .swiper-slide .cont05_box .cont05_top .cont05_top02 .cont05_top03 p {
+    font-size: 1.6rem;
+    padding-right: 2rem;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+.cont05 .inner .cont05_01 .swiper-wrapper .swiper-slide .cont05_box .cont05_top04 ul {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.cont05 .inner .cont05_01 .swiper-wrapper .swiper-slide .cont05_box p {
+    font-size: 1.6rem;
+    padding: 1rem;
+    /* 말줄임표 */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.cont05 .inner .cont05_bottom {
+    color: #fff;
+    background-color: #062E76;
+    width: 25rem;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 2rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+
+}
+
+
+.cont06 {
+    background-color: #eeeeee;
+    margin: 16rem 0;
+}
+
+.cont06 .inner {
+    max-width: 1440px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+
+.cont06 .inner .title {
+    display: flex;
+    justify-content: center;
+}
+
+.cont06 .inner .title figure img {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.cont06 .inner .title p {
+    background-color: #fff;
+    border: 1px solid #333;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+
+
+.cont06 .inner .cont06_01 {
+    padding-bottom: 5rem;
+}
+
+.cont06 .inner .cont06_01 .swiper-wrapper .swiper-slide img {
+    width: 100%;
+    height: 22.6rem;
+    object-fit: cover;
+}
+
+.cont06 .swiper-button-prev:after {
+    content: '';
+    width: 5rem;
+    height: 5rem;
+    background-image: url('../img/🦆\ icon\ _arrow\ circle\ left_.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.cont06 .swiper-button-next:after {
+    content: '';
+    width: 5rem;
+    height: 5rem;
+    background-image: url('../img/🦆\ icon\ _arrow\ circle\ right_.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.cont06 .swiper-button-next,
+.cont06 .swiper-button-prev {
+    width: 5rem;
+}
+
+
+
+
+.footer {
+    border-top: 1px solid #333;
+    margin-bottom: 16rem;
+}
+
+.footer .inner {
+    max-width: 1440px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+
+.footer .inner .list .list_top ul {
+    display: flex;
+    font-size: 16px;
+    border-bottom: 1px solid #333;
+    padding: 1.5rem 0;
+}
+
+.footer .inner .list .list_top ul li {
+    padding-right: 30px;
+}
+
+
+.footer .inner .list h5 {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.footer .inner .list .list_middle ul li {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.footer .inner .list .list_middle ul li span {
+    font-size: 16px;
+}
+
+
+.footer .inner .list .list_bottom ul li {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.footer .inner .list p {
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+
+
+@media screen and (max-width:1280px) {
+
+    header .inner .inner_bottom nav ul {
+        display: none;
+    }
+
+
+
+
+    .main_visual .swiper-wrapper .swiper-slide img {
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+    }
+}
+
+
+
+
+@media screen and (max-width:1024px) {
+
+    html,
+    body {
+        font-size: 50%;
+    }
+
+    header .inner .inner_bottom nav ul {
+        display: none;
+    }
+
+
+
+    header .inner .logo .logo_right .search fieldset div input {
+        width: 300px;
+        height: 50px;
+        border: 1px solid #fff;
+        border-radius: 25px;
+        margin-right: 5rem;
+    }
+
+    header .inner .logo .logo_right .search fieldset div img {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 50%;
+        right: 50px;
+        transform: translateY(-50%);
+
+    }
+
+
+
+    .main_visual .swiper-wrapper .swiper-slide img {
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+
+    }
+
+    .cont01 .inner .inner_bottom .cont01_01 {
+        width: 30%;
+        border: 2px solid #062E76;
+        padding: 10px;
+    }
+
+    .cont01 .inner .inner_bottom .cont01_02 {
+        width: 65%;
+        padding: 10px;
+    }
+
+    .cont02 .inner .cont02_01 .swiper-wrapper .swiper-slide img {
+        width: 100%;
+        height: 360px;
+        object-fit: cover;
+    }
+
+    .cont03 .inner .list .item {
+        width: calc(100% / 2 - 20px);
+    }
+
+    .cont03 .inner .list .item:last-child {
+        display: none;
+
+    }
+
+    .cont04 .inner .list .item {
+        width: calc(100% / 3 - 40px)
+    }
+
+
+
+}
+
+
+@media screen and (max-width:960px) {
+
+    header .inner .logo {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        line-height: 100px;
+    }
+
+
+
+    header .inner .logo h1 a img {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+    }
+
+
+
+
+
+    .main_visual .swiper-wrapper .swiper-slide img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+}
+
+
+@media screen and (max-width:640px) {
+
+    html,
+    body {
+        font-size: 40%;
+    }
+
+
+
+    header .inner .inner_top nav ul {
+        display: none;
+    }
+
+    header .inner .logo {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        line-height: 100px;
+    }
+
+
+
+    header .inner .logo h1 a img {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    header .inner .logo .logo_right {
+        display: flex;
+        margin-right: 5rem;
+    }
+
+
+    header .inner .logo .logo_right .search fieldset div input {
+        width: 200px;
+        height: 40px;
+        border: 1px solid #fff;
+        border-radius: 25px;
+        margin-right: 5rem;
+    }
+
+    header .inner .logo .logo_right .search fieldset div img {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 50%;
+        right: 40px;
+        transform: translateY(-50%);
+
+    }
+
+    header .inner .logo .logo_open img {
+        width: 3.2rem;
+        height: 3rem;
+        align-items: center;
+    }
+
+
+    .main_visual .swiper-wrapper .swiper-slide img {
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+
+    }
+
+    .cont01 .inner .inner_bottom .cont01_01 {
+        width: 45%;
+        border: 2px solid #062E76;
+        padding: 10px;
+    }
+
+    .cont01 .inner .inner_bottom .cont01_02 {
+        width: 45%;
+        padding: 10px;
+    }
+
+    .cont02 .inner .cont02_01 .swiper-wrapper .swiper-slide img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+
+
+    .cont03 .inner .list {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .cont03 .inner .list .item {
+        width: calc(100% / 1 - 40px);
+
+    }
+
+
+    .cont04 .inner .list .item {
+        width: calc(100% / 2 - 40px)
+    }
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width:500px) {
+
+    header .inner .logo h1 a img {
+        width: 100%;
+        height: 80px;
+        object-fit: cover;
+    }
+
+    header .inner .logo .logo_right {
+        display: flex;
+        margin-right: 5rem;
+    }
+
+
+    header .inner .logo .logo_right .search fieldset div input {
+        width: 100px;
+        height: 40px;
+        border: 1px solid #fff;
+        border-radius: 25px;
+        margin-right: 5rem;
+    }
+
+    header .inner .logo .logo_right .search fieldset div img {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 50%;
+        right: 40px;
+        transform: translateY(-50%);
+
+    }
+
+   
+
+
+
+
+
+
+    .main_visual .swiper-wrapper .swiper-slide img {
+        width: 100%;
+        height: 20vh;
+        object-fit: cover;
+    }
+}
