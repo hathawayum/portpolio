@@ -30,6 +30,8 @@ header {
     color: #fff;
 }
 
+
+
 header .inner .inner_top nav ul {
     height: 5rem;
     display: flex;
@@ -42,6 +44,8 @@ header .inner .inner_top nav ul li {
     padding-left: 30px;
     line-height: 5rem;
 }
+
+
 
 header .inner .logo {
     height: 150px;
@@ -93,6 +97,8 @@ header .inner .logo .logo_right .search fieldset div img {
 
 }
 
+
+
 header .inner .inner_bottom nav ul {
     max-width: 1440px;
     width: calc(100%-20px);
@@ -112,6 +118,18 @@ header .inner .inner_bottom nav ul li {
 
 header .inner .close {
     font-size: 2rem;
+    
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 70vw;
+    background-color: #333;
+    z-index: 999;
+    padding: 3rem;
+    
+
     display: none;
 }
 
