@@ -71,8 +71,6 @@ $(document).ready(function () {
 
         
         if (scrollBar >= 600 && scrollBar < 1500) {
-            //$(".aboutme_skill").delay(300).animate({"top":"-460px","opacity":"1"},700);
-        
             $(".aboutme_skill").animate({ 
                 opacity: "1", 
                 marginTop: "0" 
